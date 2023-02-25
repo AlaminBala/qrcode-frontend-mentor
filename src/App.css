@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.qr {
+  margin: 0 auto;
+  background-color: whitesmoke;
+  height: 600px;
+  width: 400px;
+  /* padding: 0.3rem; */
+  border-radius: 1.15rem;
+  margin-bottom: 5em;
+  box-shadow: 1px 1px 4px 5px hsl(212, 45%, 89%);
+}
+.qr img {
+  object-fit: contain;
+  aspect-ratio: 1/1;
+  width: 90%;
+  height: 60%;
+  margin-top: 18px;
+  border-radius: 1.15rem;
+}
+.qr .text {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 1.2rem;
+}
+.text h2 {
+  font-weight: bold;
+}
+.attribution {
+  color: hsl(218, 44%, 22%);
+}
